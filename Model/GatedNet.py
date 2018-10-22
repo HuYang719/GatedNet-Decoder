@@ -125,7 +125,7 @@ class GNNDecoder():
                 s_test = -2 * x_test + 1
                 # Channel (alpha-stable)
                 y_test = s_test + levy_stable.rvs(alpha, 0, 0, scale, (test_batch, self.N))
-                # Decoder
+                # NN Decoder Predict
                 nb_errors[i] += self.decoder.evaluate(y_test, d_test, batch_size=test_batch, verbose=2)[2]
                 nb_bits[i] += d_test.size
                 ber = np.float32(nb_errors/nb_bits)
