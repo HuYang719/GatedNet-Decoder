@@ -9,7 +9,6 @@ from time import time
 from scipy.stats import levy_stable
 from Metrics import metrics
 
-
 class GNNDecoder():
     def __init__(self,alpha=1.8, GSNR=1, addPCL=False, addRanPCL=False):
         self.k = 8
@@ -24,7 +23,6 @@ class GNNDecoder():
 
     def __del__(self):
         print('Delete Object')
-
 
     def return_output_shape(self,input_shape):
         return input_shape

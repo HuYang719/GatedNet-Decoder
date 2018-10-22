@@ -50,7 +50,7 @@ source activate deepcom2
 
 #### 3. (Recommend) IPython Notebook for training/benchmarking GatedNet decoder.
 
-* [reproduce_result.ipynb](reproduce_result.ipynb): A Jypyter notebook demonstrates how to train a Neural Decoder and compare  the performance with  other Decoders. You can see the detailed information about these model in it.
+* [reproduce_result.ipynb](reproduce_result.ipynb): A Jypyter notebook demonstrates how to train a Neural Decoder and compare  the performance with  other Decoders. You can see the details about these models.
 
 #### 4. (Optional) Modify the model for your own projects.
 
