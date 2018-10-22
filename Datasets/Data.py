@@ -1,5 +1,6 @@
 '''
 Implementation of generate training and testing data
+author: Lucyyang
 '''
 import pyldpc
 import numpy as np
@@ -28,7 +29,7 @@ def dec2bin(num):
         i = i - 1
         if num == 0:
             return l
-
+# Generate the training data
 def genData(k,N,num):
     tG = encoding(k, N, [])
     label = np.zeros((num, k), dtype='int64')
