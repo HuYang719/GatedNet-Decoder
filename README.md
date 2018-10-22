@@ -42,7 +42,7 @@ Use [Symmetric alpha-stable](https://en.wikipedia.org/wiki/Stable_distribution) 
 #### 1. Install dependencies
 ```
 conda env create -f environment.yml
-source activate deepcom2
+source activate deepenv
 ```
 #### 2. Add PCL Layers in keras.layers.core
 

@@ -1,4 +1,4 @@
-name: deepcom2
+name: deepenv
 channels:
   - defaults
 dependencies:
